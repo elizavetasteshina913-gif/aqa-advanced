@@ -1,9 +1,9 @@
 // task 4.1
 
 let radius = 5;
-let circleSquare = Math.PI * radius * radius;
+let circleArea = Math.PI * radius ** 2 ;
 
-console.log(Math.floor(circleSquare * 100) / 100);
+console.log(Math.floor(circleArea * 100) / 100);
 
 
 // task 4.2
@@ -17,6 +17,6 @@ console.log(rectangleSquare);
 //task 4.3
 let radiusCylinder = 11.32412432424324234;
 let height = 57.123123;
-let V = Math.PI * radiusCylinder * radiusCylinder * height;
+let Volume = Math.PI  * radiusCylinder ** 2 * height;
 
-console.log((Math.floor(V * 100) / 100));
+console.log(Volume.toFixed(2));

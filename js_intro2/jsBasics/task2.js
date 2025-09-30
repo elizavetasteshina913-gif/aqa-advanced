@@ -1,18 +1,23 @@
-let name1 = "Liza";
-let name2 = "Rinat";
+const name1 = "Liza";
+const name2 = "Rinat";
 
-let greeting = "HI!!!";
+// let greeting = "HI!!!";
 
 // using concatenation
-let greetingForLisa = greeting + name1;
-let greetingForRinat = greeting + name2;
+// let greetingForLisa = greeting + name1;
+// let greetingForRinat = greeting + name2;
 
-console.log(greetingForLisa);
-console.log(greetingForRinat);
+const greeting = `Hi ${name1} and ${name2}!`;
 
-// using templates
-let greeting1 = `HI ${name1} !!!`;
-let greeting2 = `HI ${name2} !!!`;
+console.log(greeting);
 
-console.log(greeting1);
-console.log(greeting2);
+
+// console.log(greetingForLisa);
+// console.log(greetingForRinat);
+//
+// // using templates
+// let greeting1 = `HI ${name1} !!!`;
+// let greeting2 = `HI ${name2} !!!`;
+//
+// console.log(greeting1);
+// console.log(greeting2);
