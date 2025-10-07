@@ -1,12 +1,12 @@
-const countAge = function (age) {
+const isAdult = function (age) {
     if (age >= 18) {
-        console.log("it is adult")
+        console.log("it is true")
     }
     else if (age < 18) {
-        console.log("it is kid")
+        console.log("it is false")
     }
 }
 
 
-countAge(25)
-countAge(15)
+isAdult(25)
+isAdult(15)
