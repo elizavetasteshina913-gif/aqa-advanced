@@ -1,14 +1,16 @@
 let age = 30;
+
 if (age < 18) {
-    console.log("чел несовершеннолетний");
+    console.log("it is kid");
 } else {
-    console.log("чел совершеннолетний");
+    console.log("it is adult");
 }
 
+const isAdult = age >=18
 
 age = 15;
 if (age < 18) {
-    console.log("чел несовершеннолетний");
+    console.log("it is kid");
 } else {
-    console.log("чел совершеннолетний");
+    console.log("it is adult");
 }
